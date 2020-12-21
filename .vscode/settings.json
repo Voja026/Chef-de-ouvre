@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "project/bin/python",
+    "python.pythonPath": "/home/voja/anaconda3/envs/plants/bin/python",
     "git.ignoreLimitWarning": true
 }
