@@ -40,18 +40,18 @@ def create_tables():
             country_name TEXT
             );'''
         
-        query_geo = '''CREATE TABLE IF NOT EXISTS geolocalisations (
-            id_geo SERIAL PRIMARY KEY,
-            latitude FLOAT8,
-            longitude FLOAT8
-            );'''
+        # query_geo = '''CREATE TABLE IF NOT EXISTS geolocalisations (
+        #     id_geo SERIAL PRIMARY KEY,
+        #     latitude FLOAT8,
+        #     longitude FLOAT8
+        #     );'''
         
         query_ppn = '''CREATE TABLE IF NOT EXISTS ppnames (
             id_ppn SERIAL PRIMARY KEY,
             name TEXT,
-            commissioning_year TIMESTAMP,
-            id_geo INTEGER,
-            FOREIGN KEY(id_geo) REFERENCES geolocalisations(id_geo)
+            latitude FLOAT8,
+            longitude FLOAT8,
+            commissioning_year INTEGER
             );'''
             
         query_pow='''CREATE TABLE IF NOT EXISTS powerplants (
@@ -67,7 +67,6 @@ def create_tables():
         cursor.execute(query_own)
         cursor.execute(query_fuel)
         cursor.execute(query_loc)
-        cursor.execute(query_geo)
         cursor.execute(query_ppn)
         cursor.execute(query_pow)
         print("Tables created successfully!")
@@ -119,11 +118,11 @@ def insert_geo(latitude, longitude):
     except e:
         print("Could not insert data")
 
-def insert_ppn(name, commissioning_year):
+def insert_ppn(name,latitude,longitude, commissioning_year):
     try:
         data = csv.reader(open('/home/voja/Desktop/Final project/ppnames.csv'),delimiter=',')
         for row in data:
-            cursor.execute('''INSERT INTO ppnames (name, commissioning_year) VALUES (%s,%s);''', row)
+            cursor.execute('''INSERT INTO ppnames (name, latitude, longitude, commissioning_year) VALUES (%s,%s,%s,%s);''', row)
         print("CSV data imported")
     except e:
         print("Could not insert data")
