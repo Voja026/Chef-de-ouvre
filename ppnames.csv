@@ -1,3 +1,4 @@
+name,latitude,longitude,commissioning_year
 Kajaki Hydroelectric Power Plant Afghanistan,32.322,65.119,0
 Mahipar Hydroelectric Power Plant Afghanistan,34.556,69.4787,0
 Naghlu Dam Hydroelectric Power Plant Afghanistan,34.641,69.717,0
@@ -58,7 +59,7 @@ Malongo,-5.55,12.2,0
 Matala,-14.7333,15.0333,0
 Namibe,-15.1961,12.1522,0
 Rio Luachimo,-7.3,20.85,0
-Xitoto,-15.3333,15,0
+Xitoto,-15.3333,15.0,0
 McMurdo Station Generator,-77.847,166.6605,1981
 Ross Island,-77.8428,166.7271,0
 AGUA DEL CAJON (AUTOGENERADOR DEL MEM),-38.9368,-68.3556,1997
@@ -1468,7 +1469,7 @@ Canaã,-22.9258,-47.5567,2006
 Canaã,-9.9439,-63.0642,2015
 Candiba,-14.1831,-42.6227,2014
 Candiota III,-31.5458,-53.6566,2011
-Canoa Quebrada,-12.7833,-56,2006
+Canoa Quebrada,-12.7833,-56.0,2006
 Canoa Quebrada,-4.4671,-37.7577,2010
 Canoas I,-22.9414,-50.5169,1999
 Canoas II,-22.9361,-50.2497,1999
@@ -1855,7 +1856,7 @@ FNS-PO,-27.595,-48.5486,2015
 FORTALEZA - 2,-3.7489,-38.4539,2014
 Fagundes,-22.2042,-43.0931,0
 Fany,-22.3051,-51.2115,0
-Faria Lemos,-20.7942,-42,2013
+Faria Lemos,-20.7942,-42.0,2013
 Faria Lima Square,-23.5839,-46.6728,2005
 Farias,-19.067,-42.8092,2015
 Farol,-5.097,-36.0204,2015
@@ -2499,7 +2500,7 @@ Paranapanema,-22.5463,-51.8189,2012
 Paranapanema,-23.1869,-49.3839,1957
 Paranatex,-23.5723,-51.4144,2014
 Paranatinga II,-13.8517,-53.2558,2008
-Paraíso I,-19,-53,2004
+Paraíso I,-19.0,-53.0,2004
 Paraúna,-18.6381,-43.9647,0
 Pardo,-21.9042,-46.2681,2015
 Pardos,-26.4458,-50.9878,2013
@@ -3088,7 +3089,7 @@ Tanquinho,-22.8838,-47.0438,0
 Tapauá,-5.6174,-63.1783,1993
 Tapurah,-12.768,-56.5445,0
 Taquari,-10.6006,-37.0517,2011
-Taquaruçu (Escola Politécnica),-22.5419,-52,1992
+Taquaruçu (Escola Politécnica),-22.5419,-52.0,1992
 Tarauacá  CEA,-8.1608,-70.7658,2016
 Tarumã (Antiga Nova América),-22.7813,-50.5411,2001
 Tauá,-6.0039,-40.2747,2011
@@ -4862,7 +4863,7 @@ Anda Cogen power station,46.3996,125.2982,2014
 Angu,29.52,103.64,0
 Anguoer,35.2327,103.5145,0
 Anhui Bengbu power station,32.7845,117.115,2013
-Anhui Huaibei Qinan Coal Mine Methane,33.42,117,0
+Anhui Huaibei Qinan Coal Mine Methane,33.42,117.0,0
 Anhui Hwasu power station,32.5856,117.2532,2012
 Anhui Laian Baoshan Wind,32.6739,118.4318,0
 Anhui Laian Longtougang Wind,32.601,118.535,0
@@ -5355,7 +5356,7 @@ Fujian Lianjiang Beijiao Wind,26.2082,119.5354,0
 Fujian Longyan Tingzhou,25.47,116.6617,0
 Fujian Muyangxi River Fengyuan,27.0982,119.4524,0
 Fujian Nanping Xiayang,26.7747,117.9831,0
-Fujian Nanridao Wind,25,119,0
+Fujian Nanridao Wind,25.0,119.0,0
 Fujian Ningde Sanjianxi,26.88,119.36,0
 Fujian Niutoushan,27.3447,119.4914,0
 Fujian Pingnan Jinzaoqiao,26.53,119.065,0
@@ -5366,7 +5367,7 @@ Fujian Pingnan Tingtougang,26.95,118.95,0
 Fujian Pingnan Yuanping Expansion,26.8964,119.2193,0
 Fujian Pingtan Changjiangao Wind,25.5626,119.7714,0
 Fujian Pucheng Taipingqiao,28.115,118.5686,0
-Fujian Putian,25.22,119,2006
+Fujian Putian,25.22,119.0,2006
 Fujian Putian Nanri Phase 3 Wind,25.2047,119.4917,0
 Fujian Qingfeng Wind,25.38,119.45,0
 Fujian Shanghang Huilong,25.3686,116.3389,0
@@ -5405,7 +5406,7 @@ Fuzhou Kemen power station,26.3736,119.7621,2007
 GD Power & Shenzhou PV,38.65,105.63,0
 GEPIC Jinchang power station,38.3784,102.0968,2006
 GEPIC Zhangye power station,39.0709,100.4621,2006
-Gangxi,37,122.09,0
+Gangxi,37.0,122.09,0
 Ganluo Aga,28.7597,102.8567,0
 Ganluo Camp,28.7253,102.7817,0
 Ganluo County Dazi,28.6611,102.9133,0
@@ -6152,7 +6153,7 @@ Hunan Taoliao Small,26.075,113.729,0
 Hunan Taoshui Hydro,26.706,113.6749,0
 Hunan Tongba Small,26.9,113.29,0
 Hunan Tongxi Small,27.7103,110.5853,0
-Hunan Wutong Small,28,110.9167,0
+Hunan Wutong Small,28.0,110.9167,0
 Hunan Xiaohe Small,29.0753,109.5256,0
 Hunan Xiaoshanyang Small,27.6839,110.6197,0
 Hunan Xinhua Pingyouqiao,28.0481,110.9022,0
@@ -6365,7 +6366,7 @@ Jilin Xiangyang 1st Phase Wind,45.2147,123.0671,0
 Jilin Zhenlai Mali Wind,45.8272,123.1358,0
 Jilintai,43.86,82.847,0
 Jilintai II,43.84,82.784,2011
-Jinan Landfill Gas,36.4011,117,0
+Jinan Landfill Gas,36.4011,117.0,0
 Jinanqiao,26.81,100.45,2010
 Jinchang - Gepic Coal,38.5013,102.2715,2013
 Jincheng Chengzhuang Coal Mine Methane,35.5625,112.625,0
@@ -6522,7 +6523,7 @@ Liaoning Kangping,42.41,122.52,0
 Liaoning Kangping Aoliyingzi Wind,42.7,122.767,0
 Liaoning Kangping Dongsheng Wind,42.6317,123.1333,0
 Liaoning Kangping Zhangjiayao Wind,42.67,122.78,0
-Liaoning Kangping Zhangqiang Wind,42.6667,123,0
+Liaoning Kangping Zhangqiang Wind,42.6667,123.0,0
 Liaoning Linghai Nanxiaoliu,40.9428,121.4489,0
 Liaoning Linghai Shengli,42.9583,121.3819,0
 Liaoning Longyuan Kangping Shajintai Wind,42.6917,122.9147,0
@@ -6870,7 +6871,7 @@ Qinghai Province Xinghai County Moduo,35.3195,100.1605,0
 Qinghai Qingshizui Small,37.4939,101.3392,0
 Qinghai Shanyizhongchuan,37.37,97.224,0
 Qinghai Wanxiang A&M power station,36.5849,101.4945,0
-Qinghai Yuhui Solar,37,98.395,0
+Qinghai Yuhui Solar,37.0,98.395,0
 Qinghai longyuan Golmud Phase III,36.36,95.24,0
 Qingshan power station,30.6288,114.4368,1997
 Qingshui River Dahuashui,26.8618,107.2737,0
@@ -7054,7 +7055,7 @@ Shatuo,28.5,108.48,2009
 Shawan,29.33,103.61,0
 Shaxikou,26.59,118.08,1990
 Shenchi Phase 2 Wind,39.1344,112.7229,0
-Shenchi Wind,39,112.1328,0
+Shenchi Wind,39.0,112.1328,0
 Shendong Baode power station,38.9443,111.1037,2006
 Shendong Hequ power station,39.4125,111.244,2015
 Shenery Wuzhong power station,37.9374,106.1396,2016
@@ -7246,7 +7247,7 @@ Sinopec Anqing power station,30.5135,117.019,1995
 Sinopec Luoyang Branch power station,34.9188,112.5954,2005
 Sinopec Yangzi power station,32.2534,118.7945,1987
 Sinopec Yizheng Plant power station,32.2764,119.1061,1986
-Siping Shanmen Phase 2 Wind,43,124.4603,0
+Siping Shanmen Phase 2 Wind,43.0,124.4603,0
 Siping power station,43.153,124.4025,2007
 Sitaifangzi,41.7888,113.986,0
 Siziwangqi Bayinaobao Wind,42.436,110.9634,0
@@ -7332,7 +7333,7 @@ Tieling power station,42.345,123.803,2002
 Tingzikou,31.82,105.87,0
 Toksun Mahatma power station,42.8187,87.9606,2012
 Tong Zhang,31.52,103.67,0
-Tongbai,29.2,121,2006
+Tongbai,29.2,121.0,2006
 Tongdao County Laorongtan,26.3882,109.8063,0
 Tonghua Xuangang power station,38.9146,112.4774,2010
 Tongjiezi,29.26,103.63,1994
@@ -7459,7 +7460,7 @@ Xiangziyan Hydro,29.102,108.445,0
 Xiannvhu Enshi City,30.1288,109.8705,0
 Xianyou,25.53,118.53,2013
 Xiaocaohu,43.47,88.147,0
-Xiaochengshan,46.78,129,0
+Xiaochengshan,46.78,129.0,0
 Xiaogushan,38.9342,100.4517,0
 Xiaohe Small,35.221,102.5444,0
 Xiaojin County Zhongmachang,31.0256,102.5006,0
@@ -7498,7 +7499,7 @@ Xingyang Integration power station,34.8246,113.3676,2010
 Xingyi power station,25.2603,104.856,2011
 Xinhai power station,34.5782,119.1275,2009
 Xinhuang Xincun Small,27.05,108.43,0
-Xinhui Shuangshui power station-2,22.446,113,2004
+Xinhui Shuangshui power station-2,22.446,113.0,2004
 Xining Aiyuan Landfill,36.6041,101.7295,0
 Xinjiang Aksu Tumuxiuke,41.5292,79.8089,0
 Xinjiang Alashankou Phase 1 Wind,45.1917,82.6167,0
@@ -7625,7 +7626,7 @@ Yichun Shimaodingzi Wind,46.49,129.07,0
 Yichun Xiaochengshan Wind,46.8167,128.5833,0
 Yichun Xinqing Laobaishan Windpark First Stage Wind,48.1226,129.7609,0
 Yihua Wucaiwan power station,44.8931,89.2476,2014
-Yilan Jiaxinshan Wind,46,129.4,0
+Yilan Jiaxinshan Wind,46.0,129.4,0
 Yili Kukesu River Kushitayi,43.1125,81.8936,0
 Yiliang Baishuijiang Liuxi,27.8097,104.5167,0
 Yiliang County Xionggou Small,27.4367,104.0222,0
@@ -8533,8 +8534,8 @@ Manduriacu,0.2147,-78.9122,2015
 Miraflores,0.0333,-78.15,0
 Paute,-2.595,-78.2274,0
 Santa Rosa,-0.3667,-78.55,0
-Saucay,-2.7833,-79,0
-Saymirin,-2.8167,-79,0
+Saucay,-2.7833,-79.0,0
+Saymirin,-2.8167,-79.0,0
 Sibimbe,-1.5833,-79.4333,0
 Sopladora II,-2.5938,-78.5666,0
 Abu Kir,31.2694,30.1409,0
@@ -8675,7 +8676,7 @@ Juntola,62.95,25.2,0
 Juotas,63.5,22.5333,0
 Juva,61.9,27.85,0
 Kaaranneskoski,66.3833,23.7,0
-Kaarni,61,28.5167,0
+Kaarni,61.0,28.5167,0
 Kaihua,66.35,26.85,0
 Kaipola,61.8162,25.2353,0
 Kaitfors,63.5,22.5167,0
@@ -8734,7 +8735,7 @@ Meri-Pori,61.6317,21.4068,0
 Merikoski,65.0261,25.4706,0
 Mertaniemi 1 ja 2,61.0587,28.1887,0
 Myllykoski,65.9667,29.1833,0
-Myllykoski ve,63,22.8,0
+Myllykoski ve,63.0,22.8,0
 Myllykoski vp,65.9667,29.1833,0
 Naantali  G1  2 ja 3,60.459,22.0545,0
 Naantali kt,60.459,22.0545,0
@@ -8786,7 +8787,7 @@ Soininkoski,65.6167,25.3167,0
 Sopenkorpi,60.9827,25.6615,0
 Sotkamo,64.1333,28.4167,0
 Summa tv,60.5697,27.1979,0
-Sunila,61,28.3,0
+Sunila,61.0,28.3,0
 Suomenoja power station,60.1483,24.7183,1981
 Tahkoluoto Offshore tv,61.4833,21.7833,0
 Tahkoluoto tv,61.4833,21.7833,0
@@ -13021,7 +13022,7 @@ PLTG Sengkang/Wajo,-5.14,119.4221,0
 PLTG Sunyaragi 1 2 3 4,-7.4064,109.5842,0
 PLTG Tarakan,3.3,117.6333,0
 PLTG Tello,-5.14,119.4221,0
-PLTGB Singkawang,0.9,109,0
+PLTGB Singkawang,0.9,109.0,0
 PLTGB Tanjung Batu,-0.5,117.15,0
 PLTGU Bekasi Power,-6.2611,107.1528,0
 PLTGU Belawan – Sicanang,3.7715,98.6687,0
@@ -13188,7 +13189,7 @@ Rey,35.5207,51.4078,0
 Rud'e Shur,35.413,50.904,0
 Sabalan,37.2928,48.3658,0
 Sahand,37.424,46.013,0
-Sahid Montazere Ghaem,35.73,51,0
+Sahid Montazere Ghaem,35.73,51.0,0
 Sanandaj,35.3954,47.0306,0
 Sefid Rood,36.7434,49.4022,1964
 Semnan,35.5729,53.3971,0
@@ -13200,7 +13201,7 @@ Shahid Rajaee,36.1595,50.2997,0
 Shahid Salimi,36.8334,53.2521,0
 Shahid Zanbagh (Yazd),31.8972,54.3675,0
 Shariati,36.2369,59.7324,0
-Shazand,34,49.5,0
+Shazand,34.0,49.5,0
 Shiraz,29.6036,52.5388,0
 Shirkooh,31.9502,54.0947,2012
 Shirvan,37.3397,58.0486,2011
@@ -14061,7 +14062,7 @@ Western Mountain Station- Ruwais,31.9559,11.1447,2005
 Zuenita,30.9564,20.1164,1994
 Elektrenai (Lithuania) Thermal Power Plant Lithuania,54.7701,24.6474,0
 Kaunas CHP Power Plant Lithuania,54.9212,24.018,0
-Kaunas Hydroelectric Power Plant Lithuania,54.8741,24,0
+Kaunas Hydroelectric Power Plant Lithuania,54.8741,24.0,0
 Kruonis Pumped Storage Hydroelectric Power Plant Lithuania,54.799,24.2475,0
 Mazheikiai CHP Power Plant Lithuania,56.3843,22.1841,0
 Vilnius TE-3 CHP Power Plant Lithuania,54.6676,25.156,0
@@ -14090,9 +14091,9 @@ Sahanivotry,-20.2003,47.1328,0
 Tamatave,-18.1667,49.3833,0
 Toliary (Tulear),-23.35,43.6667,0
 Tsiazompaniry,-19.2478,47.8339,0
-Chichiri (Blantyre),-15.7833,35,0
+Chichiri (Blantyre),-15.7833,35.0,0
 Kapichira,-15.8957,34.7538,0
-Nchalo Mill,-15.7833,35,0
+Nchalo Mill,-15.7833,35.0,0
 Nkula,-15.558,34.787,0
 Tedzani Falls,-15.55,34.7833,0
 Batang Al,1.1472,111.8743,0
@@ -14396,7 +14397,7 @@ San Pedro Porúas,19.4026,-101.3199,0
 Santa Rosalía,27.4107,-112.5292,0
 Santa Rosalía,18.0899,-93.3562,0
 Schpoiná,16.3145,-92.4261,0
-Stipa Nayaa (Bii Nee Stipa II),16.496,-95,0
+Stipa Nayaa (Bii Nee Stipa II),16.496,-95.0,0
 Tala Electric,20.667,-103.7224,0
 Tamazula,19.6844,-103.2444,0
 Tamazulapan,17.6868,-97.6178,0
@@ -16666,7 +16667,7 @@ Kusile Power Station,-25.9194,28.9156,2018
 Lesedi Solar Power Plant,-28.3153,23.3536,2014
 Lethabo power station,-26.7403,27.975,1987
 Letsatsi Solar Power Plant,-28.915,25.9199,2014
-Linde Solar Power Plant,-31,24.6512,2014
+Linde Solar Power Plant,-31.0,24.6512,2014
 Loeriesfontein 2,-30.4037,19.5891,2017
 Lomati,-25.772,31.0406,0
 Longyuan Mulilo De Aar Maanhaarberg Wind Energy Facility,-30.7259,23.9137,0
@@ -17496,7 +17497,7 @@ Victoria,7.1999,80.8069,0
 Vidatamunai,8.0667,79.7939,0
 Wimalasurendra,6.9083,80.5247,0
 Yugadanavi,7.0122,79.874,2007
-Atbara,17.7,34,0
+Atbara,17.7,34.0,0
 El Jaili,16.12,32.692,0
 El Obeid,13.1833,30.2167,0
 Jebel Aulia Dam,15.2396,32.4649,0
@@ -21258,7 +21259,7 @@ Athens Generating Plant,42.2728,-73.8492,2003
 Athens Regional Medical Center,33.9625,-83.3981,2003
 Atkinson Farm Solar,34.897,-77.7952,2016
 Atlanta Gift Mart LP,33.7611,-84.3892,1991
-Atlantic,41.409,-95,1999
+Atlantic,41.409,-95.0,1999
 Atlantic City Convention Center,39.3639,-74.4408,2009
 Atlantic Coast Freezers Solar Facility,39.5199,-75.029,2012
 Attala,33.0147,-89.6753,2001
@@ -22157,7 +22158,7 @@ Casselman Wind Power Project,39.85,-79.138,2008
 Cassia Gulch,42.8744,-115.0172,2009
 Cassia Wind,42.8444,-115.0369,2009
 Castaic,34.5872,-118.6566,1975
-Castalia Solar,36,-77.7833,2014
+Castalia Solar,36.0,-77.7833,2014
 Castle Rock,43.8656,-89.9514,1950
 Castle Rock Vineyards,35.8011,-119.1106,2010
 Castleton Energy Center,42.5375,-73.7433,1992
@@ -22777,7 +22778,7 @@ Dam No. 4 Hydro Station,39.4931,-77.8269,1947
 Dam No. 5 Hydro Station,39.605,-77.9231,1919
 Dan E Karn,43.645,-83.8401,1971
 Dan River,36.4862,-79.7208,2013
-Danbury Dam,46,-92.3725,1940
+Danbury Dam,46.0,-92.3725,1940
 Danbury Diesel,46.0028,-92.3714,1979
 Danbury Hospital Cogen Plant,41.4053,-73.4475,2011
 Dandan Solar Power Plant,13.3035,144.7492,2015
@@ -23390,7 +23391,7 @@ False Island,55.4892,-133.1345,2003
 Faraday,45.268,-122.3201,1934
 Fargo Drop,43.625,-116.8997,2013
 Faribault Energy Park,44.3356,-93.2906,2005
-Farley Road Community Solar,42.1,-72,2017
+Farley Road Community Solar,42.1,-72.0,2017
 Farmer City,40.2461,-88.6388,1985
 Farmers Branch Renewable Energy Facility,33.0311,-96.9572,2011
 Farmers City Wind LLC,40.575,-95.5228,2009
@@ -23737,7 +23738,7 @@ Gay Robinson,21.9178,-159.6294,1994
 Gaylord - Consumers,45.0306,-84.7039,1966
 Gaylord - Wolverine,45.0046,-84.7218,2001
 Gaylord Container Bogalusa,30.7811,-89.8575,1986
-Geismar,30.2,-91,1993
+Geismar,30.2,-91.0,1993
 Geismar Cogen,30.209,-90.9921,2000
 Gem State,43.4202,-112.1019,1988
 Gemini Community Solar,45.3003,-92.8044,2017
@@ -23853,7 +23854,7 @@ Gold Creek,58.3107,-134.4174,1955
 Golden Acorn Casino,32.7021,-116.3546,2014
 Golden Fields Solar I  LLC,34.839,-118.3868,2017
 Golden Hills North Wind Energy Center,37.7692,-121.6302,2017
-Golden Hills Solar,42.4,-72,2017
+Golden Hills Solar,42.4,-72.0,2017
 Golden Hills Wind,37.7133,-121.6404,2016
 Golden Renewable Energy  LLC,43.1159,-93.227,2017
 Golden Spread Panhandle Wnd Rch,35.2436,-102.21,2011
@@ -24695,7 +24696,7 @@ Janesville,44.1172,-93.7073,1977
 Jarvis (Hinckley),43.3121,-75.109,1991
 Jarvis Street,57.0497,-135.3128,2001
 Jasper,32.3594,-81.1242,2004
-Javelina Wind Energy  LLC,27.32,-99,2016
+Javelina Wind Energy  LLC,27.32,-99.0,2016
 Javelina Wind Energy II  LLC,27.44,-98.91,2016
 Jay County LFGTE,40.3797,-85.0882,2005
 Jaybird,38.834,-120.5318,1961
@@ -24764,7 +24765,7 @@ Jordache Enterprises Solar,40.5557,-74.4084,2011
 Jordan Dam,32.6189,-86.2548,1929
 Jordan Hydroelectric Project,35.6547,-79.0683,2012
 Jordanelle Dam Hydroelectric Project,40.5966,-111.4236,2008
-Joseph J Seymour Power Project,40.6631,-74,2001
+Joseph J Seymour Power Project,40.6631,-74.0,2001
 Joseph M Farley,31.2231,-85.1116,1979
 Judge F Carr,40.6469,-122.627,1963
 Judith Gap Wind Energy Center,46.5725,-109.7531,2006
@@ -26010,7 +26011,7 @@ NES Rutgers Solar,40.0709,-74.1612,2012
 NFM Solar Power LLC,42.6108,-72.4742,2012
 NGP Blue Mountain I LLC,40.9961,-118.1414,2009
 NHA at Mansfield NJ,40.76,-74.935,2016
-NIH Cogeneration Facility,39,-77.0939,2004
+NIH Cogeneration Facility,39.0,-77.0939,2004
 NJ Oak Solar Plant,39.3806,-75.1883,2012
 NJMC Landfill,40.7508,-74.11,2012
 NLMU Wind,40.955,-91.3944,2011
@@ -26851,7 +26852,7 @@ Pleasant Valley (VA),38.4006,-78.8983,1998
 Pleasant Valley Hydro,37.4142,-118.5239,1958
 Pleasant Valley Solar,33.7368,-83.6971,2016
 Pleasant Valley Wind Farm,43.805,-92.7697,2015
-Pleasantdale Road Community Solar,42.4,-72,2017
+Pleasantdale Road Community Solar,42.4,-72.0,2017
 Pleasants Energy LLC,39.3325,-81.3642,2002
 Ples I,37.6455,-118.9096,1991
 Plum Point Energy Station,35.6644,-89.9489,2010
@@ -27555,7 +27556,7 @@ Sam Rayburn,28.8947,-97.135,1998
 Sam Rayburn Dam,31.0609,-94.1062,1965
 Samarcand Solar Farm  LLC,35.3117,-79.695,2015
 Sampson County Disposal,34.9856,-78.4625,2011
-Sampson Road Community Solar,42.1,-72,2018
+Sampson Road Community Solar,42.1,-72.0,2018
 Sampson Solar,34.961,-78.4705,2015
 San Antonio Regional Hospital,34.1019,-117.6381,1990
 San Antonio West Solar Rooftop,33.9656,-117.6591,2012
@@ -28552,7 +28553,7 @@ Toadtown,39.8935,-121.5934,1986
 Toca Plant,29.8667,-89.8261,1975
 Tofteland Windfarm LLC,43.9803,-96.2233,2003
 Togiak,59.0597,-160.3803,2004
-Tok,63.3355,-143,1997
+Tok,63.3355,-143.0,1997
 Toketee Falls,43.2727,-122.4475,1950
 Toksook Bay,60.5301,-165.1086,2005
 Toledo Bend,31.1735,-93.5659,1969
@@ -29369,11 +29370,11 @@ Wilson Lake Hydroelectric Project,42.6289,-114.1747,1993
 Wilson Solar,42.2642,-71.98,2013
 Wilson Solar Farm 1,35.7,-77.9,2017
 Wilson Solar Farm 2,35.683,-78.016,2017
-Wilson Solar Farm 3,35.78,-78,2017
-Wilson Solar Farm 4,35.7,-78,2017
+Wilson Solar Farm 3,35.78,-78.0,2017
+Wilson Solar Farm 4,35.7,-78.0,2017
 Wilson Solar Farm 5,35.68,-77.87,2017
 Wilson Solar Farm 6,35.68,-77.87,2017
-Wilson Solar Farm 7,35.75,-78,2017
+Wilson Solar Farm 7,35.75,-78.0,2017
 Wilton,41.5877,-91.0195,1996
 Wilton Wind II LLC,47.1333,-100.7011,2009
 Wilzig Associates  LLC,40.8253,-74.0944,2013
