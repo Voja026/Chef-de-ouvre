@@ -54,13 +54,18 @@ def create_tables():
             commissioning_year INTEGER
             );'''
             
+        # query_pow = '''CREATE TABLE IF NOT EXISTS powerplants (
+        #     id_cap integer,
+        #     CONSTRAINT fk_capacities
+        #     FOREIGN KEY(id_cap) 
+        #     REFERENCES capacities(id_cap)
+        #     );'''
         query_pow='''CREATE TABLE IF NOT EXISTS powerplants (
-            id_cap integer references capacities,
-            id_owner integer references owners,
-            id_fuel integer references fueltypes,
-            id_loc integer references localisations,
-            id_ppn integer references ppnames,
-            constraint pk primary key (id_cap ,id_owner, id_fuel,id_loc, id_ppn)
+            id_cap integer references capacities (id_cap),
+            id_owner integer references owners (id_owner),
+            id_fuel integer references fueltypes (id_fuel),
+            id_loc integer references localisations (id_loc),
+            id_ppn integer references ppnames (id_ppn)
             );'''
                 
         cursor.execute(query_cap)
@@ -109,14 +114,14 @@ def insert_loc():
     except e:
         print("Could not insert data")
 
-def insert_geo(latitude, longitude):
-    try:
-        data = csv.reader(open('/home/voja/Desktop/Final project/geo.csv'),delimiter=',')
-        for row in data:
-            cursor.execute('''INSERT INTO geolocalisations (latitude, longitude) VALUES (%s, %s);''', row)
-        print("CSV data imported")
-    except e:
-        print("Could not insert data")
+# def insert_geo(latitude, longitude):
+#     try:
+#         data = csv.reader(open('/home/voja/Desktop/Final project/geo.csv'),delimiter=',')
+#         for row in data:
+#             cursor.execute('''INSERT INTO geolocalisations (latitude, longitude) VALUES (%s, %s);''', row)
+#         print("CSV data imported")
+#     except e:
+#         print("Could not insert data")
 
 def insert_ppn(name,latitude,longitude, commissioning_year):
     try:
