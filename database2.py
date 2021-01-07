@@ -7,15 +7,19 @@ import csv
 
 
 
-def connect_db(db, user, password, host, port):
+def connect_db(host, db, user, password, sslmode):
     try:
-        connection = psycopg2.connect(database=db,user=user,password=password,host=host,port=port)
+        connection = psycopg2.connect(host=host, database=db,user=user,password=password, sslmode=sslmode)
         print(f'Logged in {db} successfully !')
     except e:
         print(f'Could not log in to {db} !')
     return connection
 
-conn = connect_db("plants2", "energy", "ecolo", "localhost", "5432")
+conn = connect_db("dtv.postgres.database.azure.com",
+                  "plants2",
+                  "energy@dtv.postgres.database.azure.com",
+                  "ecolo123!",
+                  "require")
 cursor = conn.cursor()
 conn.autocommit = True
 
